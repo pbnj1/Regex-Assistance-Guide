@@ -69,11 +69,42 @@ The following expression will be used as part of this guide for evaluation and t
 
 ### The OR Operator
 
-    The 
+    The OR operator is a comparison operator like in standard javascript with the | sign.
+
+            example:  /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+                The or sign | breaks the expression into two groups [a-f0-9]{6} and [a-f0-9]{3}
+
+
 ### Flags
+
+    Flags are used with various qualities to affect the search.  
+
+            example:  /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+                There are no flags in this search.  However the 6 flags include:
+                    
+                    i - With this flag the search is case-insensitive
+                    g - With this flag the search looks for all matches, without it – only the first match is returned.
+                    m - Multiline mode
+                    s - Enables “dotall” mode, that allows a dot . to match newline character \n
+                    u - Enables full Unicode support. The flag enables correct processing of surrogate pairs.
+                    y - “Sticky” mode: searching at the exact position in the text
 
 ### Character Escapes
 
+    Character escapes are performed with the backslash \
+
+            example:  /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+                There are no character escapes in our code exmaple - however if present it would togle on/off the character vs. literal status of the character in front of it. 
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Tutorial by Pete Wang.
+
+I am a student of software development and am inspired to help use technology to improve quality of life, to reduce global climate consequences of inaction, and build a better kinder society.  
+
+
+[Github](https://github.com/pbnj1)
+
