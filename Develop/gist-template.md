@@ -1,4 +1,4 @@
-# Regex Assistance Guide
+# Regex Assistance Guide To Match a Hex Value
 
 Regex - or regular expression (sometimes referred to as rational expression) is a sequence of characters that refers to a specific pattern in text.  Often times these patterns might be used by string search algorithims.  This guide will help explain how to use a certain regex pattern and hex value. 
 
