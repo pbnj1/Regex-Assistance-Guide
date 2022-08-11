@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# Regex Assistance Guide
 
-Introductory paragraph (replace this with your text)
+Regex - or regular expression (sometimes referred to as rational expression) is a sequence of characters that refers to a specific pattern in text.  Often times these patterns might be used by string search algorithims.  This guide will help explain how to use a certain regex pattern and hex value. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The following expression will be used as part of this guide for evaluation and training: 
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Table of Contents
 
